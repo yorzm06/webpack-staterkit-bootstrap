@@ -120,6 +120,9 @@ const config = {
     resolve: {
         extensions: ['.js'],
         modules: ['node_modules']
+    },
+    performance: { 
+        hints: false
     }
 };
 

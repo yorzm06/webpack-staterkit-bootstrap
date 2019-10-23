@@ -65,5 +65,8 @@ module.exports = {
             partialsData: ['app/{pages,bower_components,components,core_components,data}/**/*.json'],
             helpers: [handlebarsHelpers(), './app/helpers/helpers.js']
         })
-    ]
+    ],
+    performance: { 
+        hints: false
+    }
 };
